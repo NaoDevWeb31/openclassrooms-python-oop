@@ -3,8 +3,8 @@
 # l'utilisation de pprint permet de mieux afficher les conteneurs.
 from pprint import pprint
 
-from films.friend import FriendCleaner
-from films.library import Library
+from exercices.P3.p3c2_films.films.friend import FriendCleaner
+from exercices.P3.p3c2_films.films.library import Library
 
 
 def main():

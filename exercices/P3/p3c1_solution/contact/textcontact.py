@@ -1,7 +1,7 @@
 """Définit le contact par téléphone."""
 
-from contact.abstract import ContactSystem
-from contact.helpers import validate_phone
+from exercices.P3.p3c1_solution.contact.abstract import ContactSystem
+from exercices.P3.p3c1_solution.contact.helpers import validate_phone
 
 
 class TextContactSystem(ContactSystem):

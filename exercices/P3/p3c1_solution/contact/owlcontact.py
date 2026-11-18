@@ -1,7 +1,7 @@
 """Définit le contact par chouette."""
 
-from contact.abstract import ContactSystem
-from contact.helpers import verify_adress
+from exercices.P3.p3c1_solution.contact.abstract import ContactSystem
+from exercices.P3.p3c1_solution.contact.helpers import verify_adress
 
 
 class OwlContactSystem(ContactSystem):
