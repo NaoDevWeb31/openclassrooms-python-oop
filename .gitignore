@@ -1,5 +1,35 @@
 
-.*
-__*
-screencasts
-!__init__.py
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers d'environnement
+.env
+.env.*
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Fichiers de build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Ressources exclues du dépôt original
+screencasts/
