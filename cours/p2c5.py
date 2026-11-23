@@ -39,3 +39,23 @@ entities = [Human(), Lion()]
 # entities = [Human(), Lion(), Fish()] => AttributeError: 'Fish' object has no attribute 'run'
 for entity in entities:
     entity.run()
+
+from typing import List
+
+def highest(numbers: List[int]) -> int:
+    max_value = 0
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
+
+def divide(a, b):
+    assert b != 0 # (affirmer) – souvent utilisée dans les tests – cause le déclenchement d’une Exception par un programme si quelque chose n’est pas vrai - déconseillé pour un code de production
+    return a / b
+
+for volunteer in volunteers:
+    if hasattr(volunteer, "walk"):
+        volunteer.walk()
+
+"""if not isinstance(x, Y):
+    raise Z("M")"""
